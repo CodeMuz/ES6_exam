@@ -11,6 +11,9 @@ var vowels = ["a", "e", "i", "o", "u"];
 
 var str = "Today is best day of my life";
 
+for(var chr of str){    
+    if( vowels.includes(chr) ) vowelsCount++;
+}
 // Write code here
 
 console.log(vowelsCount);

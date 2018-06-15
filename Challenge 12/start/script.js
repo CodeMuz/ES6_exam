@@ -10,7 +10,7 @@ var a = [1, 2, 3];
 var b;
 
 //Copy array here
-
+b = a.slice();
 b.push("newElement");
 
 console.log(a);

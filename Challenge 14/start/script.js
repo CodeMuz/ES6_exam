@@ -27,6 +27,10 @@ var person2 = {
   }
 };
 
+function shortPerson(p){
+  var {name:n,info:{country:c,age:a},postsQuantity:p=0} = p;
+  return {n,c,a,p};
+}
 // Write function here
 
 console.log(shortPerson(person1));

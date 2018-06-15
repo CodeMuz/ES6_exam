@@ -9,6 +9,7 @@ Don't use for this any new variable.
 var a = "first";
 var b = "second";
 
+[a,b] = [b,a];
 // Write code here
 
 console.log(a, b);

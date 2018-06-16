@@ -14,6 +14,17 @@ var nums = {
   d: 12
 };
 
+function sumObjectValues(nums){
+  let total = 0;
+  for(let a in nums){
+    if(nums.hasOwnProperty(a)){    
+      if(!isNaN(nums[a])){
+        total += nums[a];
+      }
+    }
+  }
+  return total;
+}
 // Write code here
 
 console.log(sumObjectValues(nums));

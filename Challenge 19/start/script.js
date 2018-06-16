@@ -17,6 +17,7 @@ var nums = {
 function sumObjectValues(nums){
   let total = 0;
   for(let a in nums){
+    //typeof obj[k] === "number"
     if(nums.hasOwnProperty(a)){    
       if(!isNaN(nums[a])){
         total += nums[a];
